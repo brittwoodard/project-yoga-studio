@@ -8,35 +8,23 @@
 
 @layer base {
 
-    h1, h2, h3, h4  {
-        @apply font-serif mb-[0.5em];
+    nav {
+        @apply text-pumpkin font-sans uppercase tracking-wide
     }
 
-    h1 {
-        @apply text-3xl leading-tight;
-    }
-    h2 {
-        @apply text-2xl leading-tight;
-    }
-    h3 {
-        @apply text-xl leading-tight;
-    }
-
-    h3 {
-        @apply text-lg leading-tight;
-    }
-    h4 {
-        @apply text-lg leading-tight;
-    }
-
-    p {
-        @apply mb-[0.5em] leading-normal;
+    nav a{
+        @apply py-2 px-4 my-2 mx-4
     }
 
   }
 
+  /* Typography Classes */
+  .heading-sm {
+    @apply text-2xl tracking-wider
+  }
+
   .bg-image-style {
-    background-color: #f5f8f0;
+    background-color: #EED5BD;
     background-size: cover;
     background-repeat: no-repeat;
   }

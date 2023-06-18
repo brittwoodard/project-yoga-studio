@@ -310,33 +310,22 @@ video {
 [hidden] {
   display: none;
 }
-h1, h2, h3, h4 {
-  margin-bottom: 0.5em;
-  font-family: Oranienbaum, serif;
+nav {
+  font-family: Poppins, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  --tw-text-opacity: 1;
+  color: rgb(201 115 36 / var(--tw-text-opacity));
 }
-h1 {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-  line-height: 1.25;
-}
-h2 {
-  font-size: 1.5rem;
-  line-height: 2rem;
-  line-height: 1.25;
-}
-h3 {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  line-height: 1.25;
-}
-h4 {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  line-height: 1.25;
-}
-p {
-  margin-bottom: 0.5em;
-  line-height: 1.5;
+nav a {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
@@ -491,6 +480,10 @@ p {
 .justify-between {
   justify-content: space-between;
 }
+.bg-cream {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 242 233 / var(--tw-bg-opacity));
+}
 .bg-stone-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 244 / var(--tw-bg-opacity));
@@ -509,12 +502,34 @@ p {
 .p-8 {
   padding: 2rem;
 }
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.font-serif {
+  font-family: Oranienbaum, serif;
+}
+.text-pumpkin {
+  --tw-text-opacity: 1;
+  color: rgb(201 115 36 / var(--tw-text-opacity));
+}
 
 
 /* ----------- Default Styles to apply to the whole project  --------- */
 
+  /* Typography Classes */
+  .heading-sm {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.05em;
+}
+
   .bg-image-style {
-    background-color: #f5f8f0;
+    background-color: #EED5BD;
     background-size: cover;
     background-repeat: no-repeat;
   }
