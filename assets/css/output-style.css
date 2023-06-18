@@ -310,6 +310,10 @@ video {
 [hidden] {
   display: none;
 }
+body {
+  --tw-text-opacity: 1;
+  color: rgb(201 115 36 / var(--tw-text-opacity));
+}
 nav {
   font-family: Poppins, sans-serif;
   text-transform: uppercase;
@@ -351,15 +355,11 @@ h1,
   margin-bottom: 1rem;
   font-family: Oranienbaum, serif;
   letter-spacing: 0.025em;
-  --tw-text-opacity: 1;
-  color: rgb(201 115 36 / var(--tw-text-opacity));
 }
 p {
   margin-bottom: 1rem;
   font-family: Montserrat, sans-serif;
   letter-spacing: 0.025em;
-  --tw-text-opacity: 1;
-  color: rgb(201 115 36 / var(--tw-text-opacity));
 }
 /* Typography Classes */
 .heading-sm {

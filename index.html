@@ -19,6 +19,9 @@ classes:
   button: 
     url: "/classes"
     text: Find Out More
+  image: 
+    image_path: /uploads/project-yoga-studio-3.jpg
+    image_focus: center 20%
 seo: 
   title: The Yoga Studio for Mandala Yoga in Canggu, Bali
   description: Description that includes relevant key words
@@ -35,7 +38,7 @@ seo:
 
 <!-- Our Classes -->
 <section class="grid grid-cols-2">
-  <div class="bg-image-style flex flex-col justify-end text-light" style="background-image: url('/uploads/project-yoga-studio-3.jpg');">
+  <div class="bg-image-style flex flex-col justify-end text-light" style="background-image: url('{{page.classes.image.image_path}}'); background-position: {{page.classes.image.image_focus}}">
     {% include cta.html cta=page.classes %}
   </div>
   <div class="grid grid-cols-2 divide-x-2 divide-y-2 divide-pumpkin">
