@@ -35,6 +35,12 @@
 
   }
 
+  .bg-image-style {
+    background-color: #f5f8f0;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 
@@ -49,3 +55,6 @@
     }
     
 }
+
+/* Temporary Styles */
+section, nav, div, p {border: 1px solid olive;}

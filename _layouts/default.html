@@ -2,20 +2,19 @@
 <html lang="en">
 
 <head>
-
     {% include head.html %}
-    
 </head>
 
 <body>
-    
     <header>
         {% include site-header.html %}
     </header> 
 
     {{content}}
 
-	<footer> This is your footer </footer> 
+	<footer>
+        {% include site-footer.html %}
+    </footer> 
 
 </body>
 

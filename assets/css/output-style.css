@@ -436,14 +436,45 @@ p {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.button {
+  display: inline-block;
+  --tw-bg-opacity: 1;
+  background-color: rgb(39 39 42 / var(--tw-bg-opacity));
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+.col-span-3 {
+  grid-column: span 3 / span 3;
+}
+.col-span-5 {
+  grid-column: span 5 / span 5;
+}
 .m-4 {
   margin: 1rem;
+}
+.grid {
+  display: grid;
 }
 .w-96 {
   width: 24rem;
 }
 .shrink-0 {
   flex-shrink: 0;
+}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 .bg-stone-100 {
   --tw-bg-opacity: 1;
@@ -457,10 +488,6 @@ p {
   --tw-bg-opacity: 1;
   background-color: rgb(214 211 209 / var(--tw-bg-opacity));
 }
-.bg-yellow-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
-}
 .p-4 {
   padding: 1rem;
 }
@@ -471,9 +498,17 @@ p {
 
 /* ----------- Default Styles to apply to the whole project  --------- */
 
+  .bg-image-style {
+    background-color: #f5f8f0;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 
+/* Temporary Styles */
+section, nav, div, p {border: 1px solid olive;}
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
