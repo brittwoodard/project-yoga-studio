@@ -12,8 +12,20 @@
         @apply text-pumpkin font-sans uppercase tracking-wide
     }
 
-    nav a {
+    header nav a {
         @apply py-2 px-4 my-2 mx-4
+    }
+
+    footer h2 {
+        @apply text-light
+    }
+
+    footer {
+        @apply text-light
+    }
+
+    footer nav a {
+        @apply block font-light leading-8 text-light
     }
 
     h1,
@@ -22,7 +34,7 @@
     h4,
     h5,
     h6 {
-        @apply font-serif text-pumpkin mb-8 tracking-wide
+        @apply font-serif text-pumpkin tracking-wide mb-4
     }
 
     p {
@@ -32,15 +44,15 @@
     /* Typography Classes */
 
     .heading-sm {
-        @apply text-2xl
+        @apply text-2xl mb-4
     }
 
     .heading-md {
-        @apply text-4xl
+        @apply text-4xl mb-8
     }
 
     .heading-lg {
-        @apply text-8xl
+        @apply text-8xl mb-16
     }
 
 }
@@ -68,10 +80,9 @@
 
 /* UTILITY CLASSES */
 
-/* Temporary Styles */
-/* section,
-nav,
-div,
-p {
-    border: 1px solid olive;
-} */
+@layer utilities {
+    .text-light {
+        @apply text-white
+    }
+
+}

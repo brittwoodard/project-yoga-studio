@@ -34,6 +34,7 @@ module.exports = {
       colors: {
         'pumpkin': '#C97324',
         'cream': '#FBF2E9',
+        'light': 'white',
       }
     },
   },

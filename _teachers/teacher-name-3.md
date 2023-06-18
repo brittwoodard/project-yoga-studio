@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Teacher Name
-description: This is a bio of the teacher
-featured_image:
+title: Duis Aute
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+featured_image: uploads/project-yoga-studio-6.jpg
 featured_teacher: true
 author: 
 seo: 
