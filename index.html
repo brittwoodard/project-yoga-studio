@@ -35,10 +35,10 @@ seo:
 
 <!-- Our Classes -->
 <section class="grid grid-cols-2">
-  <div class="bg-image-style" style="background-image: url('/uploads/project-yoga-studio-3.jpg');">
+  <div class="bg-image-style flex flex-col justify-end" style="background-image: url('/uploads/project-yoga-studio-3.jpg');">
     {% include cta.html cta=page.classes %}
   </div>
-  <div class="grid grid-cols-2">
+  <div class="grid grid-cols-2 divide-x-2 divide-y-2 divide-pumpkin">
     {% for item in site.yoga-classes limit:4 %}
         {% include class-loop-item-square.html %}
     {% endfor %}
@@ -46,7 +46,7 @@ seo:
 </section>
 
 <!-- Teachers -->
-<section>
+<section class="p-5p">
   <h2>Meet our Teachers</h2>
   <div class="grid grid-cols-3">
     {% for item in site.teachers limit:3 %}
