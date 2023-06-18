@@ -30,7 +30,7 @@ html {
   -moz-tab-size: 4; /* 3 */
   -o-tab-size: 4;
      tab-size: 4; /* 3 */
-  font-family: Montserrat, sans-serif; /* 4 */
+  font-family: Poppins, sans-serif; /* 4 */
   font-feature-settings: normal; /* 5 */
   font-variation-settings: normal; /* 6 */
 }
@@ -312,7 +312,7 @@ video {
 }
 h1, h2, h3, h4 {
   margin-bottom: 0.5em;
-  font-family: Italiana, serif;
+  font-family: Oranienbaum, serif;
 }
 h1 {
   font-size: 1.875rem;
@@ -449,6 +449,9 @@ p {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
@@ -458,11 +461,11 @@ p {
 .col-span-5 {
   grid-column: span 5 / span 5;
 }
-.col-span-1 {
-  grid-column: span 1 / span 1;
-}
 .m-4 {
   margin: 1rem;
+}
+.flex {
+  display: flex;
 }
 .grid {
   display: grid;
@@ -484,6 +487,9 @@ p {
 }
 .grid-cols-5 {
   grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.justify-between {
+  justify-content: space-between;
 }
 .bg-stone-100 {
   --tw-bg-opacity: 1;

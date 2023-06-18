@@ -8,8 +8,9 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ['Montserrat', 'sans-serif'],
-      serif: ['Italiana', 'serif'],
+      p: ['Montserrat', 'sans-serif'],
+      sans: ['Poppins', 'sans-serif'],
+      serif: ['Oranienbaum', 'serif'],
     },
     extend: {
       spacing: {
@@ -30,6 +31,10 @@ module.exports = {
         '60': '60vh',
         '50': '50vh',
       },
+      colors: {
+        'pumpkin': '#C97324',
+        'cream': '#FBF2E9',
+      }
     },
   },
   plugins: [
