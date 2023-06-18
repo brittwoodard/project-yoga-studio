@@ -343,6 +343,8 @@ p {
   margin-bottom: 1rem;
   font-family: Montserrat, sans-serif;
   letter-spacing: 0.025em;
+  --tw-text-opacity: 1;
+  color: rgb(201 115 36 / var(--tw-text-opacity));
 }
 /* Typography Classes */
 .heading-sm {
@@ -475,6 +477,13 @@ p {
         background-repeat: no-repeat;
         background-position: center;
     }
+.absolute {
+  position: absolute;
+}
+.inset-x-0 {
+  left: 0px;
+  right: 0px;
+}
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
@@ -526,11 +535,20 @@ p {
 .flex-col {
   flex-direction: column;
 }
+.items-end {
+  align-items: flex-end;
+}
+.items-baseline {
+  align-items: baseline;
+}
 .justify-center {
   justify-content: center;
 }
 .justify-between {
   justify-content: space-between;
+}
+.border {
+  border-width: 1px;
 }
 .border-pumpkin {
   --tw-border-opacity: 1;
@@ -572,9 +590,6 @@ p {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-.align-middle {
-  vertical-align: middle;
-}
 .font-sans {
   font-family: Poppins, sans-serif;
 }
@@ -600,12 +615,12 @@ p {
 /* UTILITY CLASSES */
 
 /* Temporary Styles */
-section,
+/* section,
 nav,
 div,
 p {
     border: 1px solid olive;
-}
+} */
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
