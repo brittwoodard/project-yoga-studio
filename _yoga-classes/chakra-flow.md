@@ -5,11 +5,11 @@ description: This is a short description of the first blog post
 featured_image: 'https://placekitten.com/900/600'
 author: 
 seo: 
-	title: This should appear in the browser tab
-	description: 
-	keywords: 
-	social_image: 
-	hide-from-google: false
+    title: This should appear in the browser tab
+    description: 
+    keywords: 
+    social_image: 
+    hide-from-google: false
 ---
 
 ## This is a heading in our blog post 
