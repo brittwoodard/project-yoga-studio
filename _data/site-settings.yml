@@ -1,0 +1,7 @@
+navigation: 
+  - url: /classes
+    title: "Our Classes"
+  - url: /schedule
+    title: Schedule
+  - url: /contact
+    title: Contact
