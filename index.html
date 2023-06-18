@@ -3,7 +3,7 @@ layout: default
 banner: 
   intro: Welcome to
   heading: The Yoga Studio
-half-section:
+cta:
   heading: Duis Aute Irure
   description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem pariatur nostrum accusantium veniam. Suscipit nemo, qui mollitia atque impedit, culpa asperiores beatae provident ullam error odio similique inventore nesciunt?
   button: 
@@ -21,4 +21,57 @@ seo:
 {% include hero-banner.html %}
 
 <!-- CTA -->
-{% include half-section.html %}
+{% include split-section.html %}
+
+<!-- Our Classes -->
+<section class="grid grid-cols-2">
+  {% include cta.html %}
+  <div class="grid grid-cols-2">
+    <div>
+      <h3>Class</h3>
+      <p>Description</p>
+    </div>
+    <div>
+      <h3>Class</h3>
+      <p>Description</p>
+    </div>
+    <div>
+      <h3>Class</h3>
+      <p>Description</p>
+    </div>
+    <div>
+      <h3>Class</h3>
+      <p>Description</p>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section>
+  <h2>Testimonials</h2>
+  <div class="grid grid-cols-3">
+    <!-- Teacher 1 -->
+    <div>
+      <div class="bg-image-style aspect-square"></div>
+      <h3>Teacher</h3>
+      <br>
+      <p>Description</p>
+    </div>
+
+    <!-- Teacher 2 -->
+    <div>
+      <div class="bg-image-style aspect-square"></div>
+      <h3>Teacher</h3>
+      <br>
+      <p>Description</p>
+    </div>
+
+    <!-- Teacher 3 -->
+    <div>
+      <div class="bg-image-style aspect-square"></div>
+      <h3>Teacher</h3>
+      <br>
+      <p>Description</p>
+    </div>
+  </div>
+</section>
