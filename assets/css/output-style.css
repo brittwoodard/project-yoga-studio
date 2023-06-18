@@ -498,6 +498,9 @@ p {
 .absolute {
   position: absolute;
 }
+.relative {
+  position: relative;
+}
 .inset-x-0 {
   left: 0px;
   right: 0px;
@@ -511,8 +514,14 @@ p {
 .col-span-3 {
   grid-column: span 3 / span 3;
 }
+.col-span-5 {
+  grid-column: span 5 / span 5;
+}
 .m-4 {
   margin: 1rem;
+}
+.-m-px {
+  margin: -1px;
 }
 .mb-0 {
   margin-bottom: 0px;
@@ -522,6 +531,12 @@ p {
 }
 .mb-8 {
   margin-bottom: 2rem;
+}
+.-ml-10p {
+  margin-left: -10%;
+}
+.inline-block {
+  display: inline-block;
 }
 .flex {
   display: flex;
@@ -540,6 +555,9 @@ p {
 }
 .w-96 {
   width: 24rem;
+}
+.w-\[150\%\] {
+  width: 150%;
 }
 .shrink-0 {
   flex-shrink: 0;
@@ -581,9 +599,25 @@ p {
   border-top-width: calc(2px * calc(1 - var(--tw-divide-y-reverse)));
   border-bottom-width: calc(2px * var(--tw-divide-y-reverse));
 }
+.divide-x > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-x-reverse: 0;
+  border-right-width: calc(1px * var(--tw-divide-x-reverse));
+  border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
+}
+.divide-y > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-y-reverse: 0;
+  border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+  border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
+}
 .divide-pumpkin > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-opacity: 1;
   border-color: rgb(201 115 36 / var(--tw-divide-opacity));
+}
+.self-center {
+  align-self: center;
+}
+.overflow-clip {
+  overflow: clip;
 }
 .border {
   border-width: 1px;
@@ -594,6 +628,10 @@ p {
 .border-pumpkin {
   --tw-border-opacity: 1;
   border-color: rgb(201 115 36 / var(--tw-border-opacity));
+}
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 .bg-cream {
   --tw-bg-opacity: 1;
@@ -615,6 +653,9 @@ p {
   --tw-bg-opacity: 1;
   background-color: rgb(214 211 209 / var(--tw-bg-opacity));
 }
+.bg-transparent {
+  background-color: transparent;
+}
 .p-10p {
   padding: 10%;
 }
@@ -635,6 +676,10 @@ p {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.py-5p {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 .text-center {
   text-align: center;
 }
@@ -643,6 +688,9 @@ p {
 }
 .font-serif {
   font-family: Oranienbaum, serif;
+}
+.font-light {
+  font-weight: 300;
 }
 .uppercase {
   text-transform: uppercase;
@@ -657,6 +705,10 @@ p {
 .text-pumpkin {
   --tw-text-opacity: 1;
   color: rgb(201 115 36 / var(--tw-text-opacity));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .text-light {
   --tw-text-opacity: 1;

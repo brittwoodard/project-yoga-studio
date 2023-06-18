@@ -38,12 +38,14 @@ seo:
 
 <!-- Our Classes -->
 <section class="grid grid-cols-2">
-  <div class="bg-image-style flex flex-col justify-end text-light" style="background-image: url('{{page.classes.image.image_path}}'); background-position: {{page.classes.image.image_focus}}">
+  <div class="bg-image-style flex flex-col justify-end text-light" style="background-image: url('{{page.classes.image.image_path}}'); background-position: {{page.classes.image.image_focus}};">
     {% include cta.html cta=page.classes %}
   </div>
-  <div class="grid grid-cols-2 divide-x-2 divide-y-2 divide-pumpkin">
+  <div class="grid grid-cols-2 divide-x divide-y divide-pumpkin overflow-clip border border-pumpkin">
     {% for item in site.yoga-classes limit:4 %}
+    <div class="-m-px">
         {% include class-loop-item-square.html %}
+    </div>
     {% endfor %}
   </div>
 </section>
