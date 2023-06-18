@@ -73,6 +73,10 @@
         @apply inline-block px-8 py-2 uppercase tracking-widest bg-pumpkin text-white font-sans
     }
 
+    footer .button {
+        @apply bg-light text-pumpkin mt-4
+    }
+
     .bg-image-style {
         background-color: #EED5BD;
         background-size: cover;
