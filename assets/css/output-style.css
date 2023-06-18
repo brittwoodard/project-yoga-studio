@@ -496,12 +496,6 @@ footer .button {
   --tw-text-opacity: 1;
   color: rgb(201 115 36 / var(--tw-text-opacity));
 }
-.bg-image-style {
-        background-color: #EED5BD;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
 .absolute {
   position: absolute;
 }
@@ -710,9 +704,59 @@ footer .button {
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 
+
+ #moments-embed #momence-plugin-host-schedule .jDJBAl {
+    display: none;
+ }
+
+
+
 /* UTILITY CLASSES */
 
-@media (min-width: 768px) {
+/* Button */
+#moments-embed #momence-plugin-host-schedule .dTMemf {
+  --tw-bg-opacity: 1;
+  background-color: rgb(201 115 36 / var(--tw-bg-opacity));
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+ 
+ .bg-image-style {
+  --tw-bg-opacity: 1;
+  background-color: rgb(238 213 189 / var(--tw-bg-opacity));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+ /* Universal Plugin Styles */
+ #moments-embed #momence-plugin-host-schedule * {
+  border-radius: 0px;
+  --tw-border-opacity: 1;
+  border-color: rgb(201 115 36 / var(--tw-border-opacity));
+  background-color: transparent;
+  --tw-text-opacity: 1;
+  color: rgb(201 115 36 / var(--tw-text-opacity));
+}
+
+ /* Arrow Button */
+ #moments-embed #momence-plugin-host-schedule .momence-arrow-button {
+  border-style: none;
+}
+
+ /* H2 Styles */
+ #moments-embed #momence-plugin-host-schedule .momence-event_type_select-button {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+  font-family: Oranienbaum, serif;
+  letter-spacing: 0.025em;
+}
+ @media (min-width: 768px) {
   .md\:flex {
     display: flex;
   }

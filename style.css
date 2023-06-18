@@ -77,14 +77,15 @@
         @apply bg-light text-pumpkin mt-4
     }
 
-    .bg-image-style {
-        background-color: #EED5BD;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
 
 }
+
+
+ #moments-embed #momence-plugin-host-schedule .jDJBAl {
+    display: none;
+ }
+
+
 
 /* UTILITY CLASSES */
 
@@ -94,3 +95,27 @@
     }
 
 }
+
+/* Button */
+#moments-embed #momence-plugin-host-schedule .dTMemf {
+    @apply bg-pumpkin text-light uppercase font-sans uppercase font-light tracking-wide
+ }
+ 
+ .bg-image-style {
+     @apply bg-[#EED5BD] bg-cover bg-no-repeat bg-center
+ }
+
+ /* Universal Plugin Styles */
+ #moments-embed #momence-plugin-host-schedule *{
+    @apply bg-transparent border-pumpkin rounded-none text-pumpkin
+ }
+
+ /* Arrow Button */
+ #moments-embed #momence-plugin-host-schedule .momence-arrow-button {
+    @apply border-none
+ }
+
+ /* H2 Styles */
+ #moments-embed #momence-plugin-host-schedule .momence-event_type_select-button {
+    @apply heading-sm font-serif tracking-wide mb-4
+ }
