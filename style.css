@@ -106,6 +106,7 @@
  }
 
  /* Universal Plugin Styles */
+ /* NOTE I made the id "moments" instead of "momence" and everything coded accordingly */
  #moments-embed #momence-plugin-host-schedule *{
     @apply bg-transparent border-pumpkin rounded-none text-pumpkin
  }
@@ -118,4 +119,14 @@
  /* H2 Styles */
  #moments-embed #momence-plugin-host-schedule .momence-event_type_select-button {
     @apply heading-sm font-serif tracking-wide mb-4
+ }
+
+ /* Page Numbers Active */
+ #moments-embed #momence-plugin-host-schedule .gZOyVg::after {
+    @apply bg-pumpkin
+ }
+
+ /* Momence Logo */
+ #moments-embed #momence-plugin-host-schedule .momence-host_schedule-powered_by_momence {
+    @apply hidden
  }

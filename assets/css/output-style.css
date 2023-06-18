@@ -734,6 +734,7 @@ footer .button {
 }
 
  /* Universal Plugin Styles */
+ /* NOTE I made the id "moments" instead of "momence" and everything coded accordingly */
  #moments-embed #momence-plugin-host-schedule * {
   border-radius: 0px;
   --tw-border-opacity: 1;
@@ -755,6 +756,17 @@ footer .button {
   margin-bottom: 1rem;
   font-family: Oranienbaum, serif;
   letter-spacing: 0.025em;
+}
+
+ /* Page Numbers Active */
+ #moments-embed #momence-plugin-host-schedule .gZOyVg::after {
+  --tw-bg-opacity: 1;
+  background-color: rgb(201 115 36 / var(--tw-bg-opacity));
+}
+
+ /* Momence Logo */
+ #moments-embed #momence-plugin-host-schedule .momence-host_schedule-powered_by_momence {
+  display: none;
 }
  @media (min-width: 768px) {
   .md\:flex {
