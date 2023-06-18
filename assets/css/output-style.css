@@ -458,6 +458,9 @@ p {
 .col-span-5 {
   grid-column: span 5 / span 5;
 }
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
 .m-4 {
   margin: 1rem;
 }

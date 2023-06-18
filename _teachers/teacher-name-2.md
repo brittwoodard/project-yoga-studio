@@ -2,7 +2,7 @@
 layout: post
 title: Teacher Name
 description: This is a bio of the teacher
-featured_image: 'https://placekitten.com/900/600'
+featured_image:
 featured_teacher: true
 author: 
 seo: 

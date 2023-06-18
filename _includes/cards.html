@@ -1,0 +1,9 @@
+{% for item in site.yoga-classes limit: 3 %}
+<div>
+  <div class="aspect-square bg-image-style" style="background-image: url('{{item.featured_image}}');"></div>
+  <hr>
+  <h3>{{item.title}}</h3>
+  <p>{{item.description}}</p>
+  <a href="/schedule">Sign Up</a>
+</div>
+{% endfor %}
