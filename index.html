@@ -3,13 +3,22 @@ layout: default
 banner: 
   intro: Welcome to
   heading: The Yoga Studio
-  image_path: 
+  image_path: /uploads/project-yoga-studio-1.jpg
 cta:
   heading: Duis Aute Irure
   description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem pariatur nostrum accusantium veniam. Suscipit nemo, qui mollitia atque impedit, culpa asperiores beatae provident ullam error odio similique inventore nesciunt?
   button: 
     url: "#"
     text: Sign Up
+  image: 
+    image_path: /uploads/project-yoga-studio-2.jpg
+    image_focus: top
+classes:
+  heading: Classes
+  description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem pariatur nostrum accusantium veniam. Suscipit nemo, qui mollitia atque impedit, culpa asperiores beatae provident ullam error odio similique inventore nesciunt?
+  button: 
+    url: "/classes"
+    text: Find Out More
 seo: 
   title: The Yoga Studio for Mandala Yoga in Canggu, Bali
   description: Description that includes relevant key words
@@ -26,7 +35,7 @@ seo:
 
 <!-- Our Classes -->
 <section class="grid grid-cols-2">
-  {% include cta.html %}
+  {% include cta.html cta=page.classes %}
   <div class="grid grid-cols-2">
     {% for item in site.yoga-classes limit:4 %}
         {% include class-loop-item-square.html %}

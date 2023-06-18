@@ -327,6 +327,36 @@ nav a {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+  margin-bottom: 2rem;
+  font-family: Oranienbaum, serif;
+  letter-spacing: 0.025em;
+  --tw-text-opacity: 1;
+  color: rgb(201 115 36 / var(--tw-text-opacity));
+}
+p {
+  margin-bottom: 1rem;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 0.025em;
+}
+/* Typography Classes */
+.heading-sm {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.heading-md {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.heading-lg {
+  font-size: 6rem;
+  line-height: 1;
+}
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -428,16 +458,23 @@ nav a {
 .button {
   display: inline-block;
   --tw-bg-opacity: 1;
-  background-color: rgb(39 39 42 / var(--tw-bg-opacity));
+  background-color: rgb(201 115 36 / var(--tw-bg-opacity));
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  font-family: Poppins, sans-serif;
   text-transform: uppercase;
-  letter-spacing: 0.025em;
+  letter-spacing: 0.1em;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+.bg-image-style {
+        background-color: #EED5BD;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
@@ -453,6 +490,9 @@ nav a {
 .m-4 {
   margin: 1rem;
 }
+.mb-0 {
+  margin-bottom: 0px;
+}
 .flex {
   display: flex;
 }
@@ -461,6 +501,12 @@ nav a {
 }
 .aspect-square {
   aspect-ratio: 1 / 1;
+}
+.min-h-70 {
+  min-height: 70vh;
+}
+.w-1\/3 {
+  width: 33.333333%;
 }
 .w-96 {
   width: 24rem;
@@ -477,8 +523,18 @@ nav a {
 .grid-cols-5 {
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
+.flex-col {
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
 .justify-between {
   justify-content: space-between;
+}
+.border-pumpkin {
+  --tw-border-opacity: 1;
+  border-color: rgb(201 115 36 / var(--tw-border-opacity));
 }
 .bg-cream {
   --tw-bg-opacity: 1;
@@ -496,8 +552,14 @@ nav a {
   --tw-bg-opacity: 1;
   background-color: rgb(214 211 209 / var(--tw-bg-opacity));
 }
+.p-10p {
+  padding: 10%;
+}
 .p-4 {
   padding: 1rem;
+}
+.p-5p {
+  padding: 5%;
 }
 .p-8 {
   padding: 2rem;
@@ -510,8 +572,20 @@ nav a {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.align-middle {
+  vertical-align: middle;
+}
+.font-sans {
+  font-family: Poppins, sans-serif;
+}
 .font-serif {
   font-family: Oranienbaum, serif;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.tracking-widest {
+  letter-spacing: 0.1em;
 }
 .text-pumpkin {
   --tw-text-opacity: 1;
@@ -521,24 +595,17 @@ nav a {
 
 /* ----------- Default Styles to apply to the whole project  --------- */
 
-  /* Typography Classes */
-  .heading-sm {
-  font-size: 1.5rem;
-  line-height: 2rem;
-  letter-spacing: 0.05em;
-}
-
-  .bg-image-style {
-    background-color: #EED5BD;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 
+/* UTILITY CLASSES */
+
 /* Temporary Styles */
-section, nav, div, p {border: 1px solid olive;}
+section,
+nav,
+div,
+p {
+    border: 1px solid olive;
+}
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
