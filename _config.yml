@@ -1,3 +1,5 @@
 collections:
   yoga-classes:
     output: false
+  teachers: 
+    output: false
