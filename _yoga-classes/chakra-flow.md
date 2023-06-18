@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Chakra Flow
-description: This is a short description of the first blog post
-featured_image: 
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+featured_image: uploads/project-yoga-studio-3.jpg
 author: 
 seo: 
     title: This should appear in the browser tab

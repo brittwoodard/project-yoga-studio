@@ -479,8 +479,8 @@ p {
   display: inline-block;
   --tw-bg-opacity: 1;
   background-color: rgb(201 115 36 / var(--tw-bg-opacity));
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   font-family: Poppins, sans-serif;
@@ -587,6 +587,9 @@ p {
 }
 .border {
   border-width: 1px;
+}
+.border-t {
+  border-top-width: 1px;
 }
 .border-pumpkin {
   --tw-border-opacity: 1;
