@@ -78,9 +78,8 @@
     }
 
     .form-field {
-        @apply placeholder:text-pumpkin placeholder:uppercase placeholder:tracking-wide border-b border-pumpkin py-1 bg-transparent
+        @apply placeholder:text-pumpkin placeholder:uppercase placeholder:tracking-wide border-b border-pumpkin py-1 bg-transparent focus-visible:outline focus-visible:outline-pumpkin outline-1
     }
-
 
 }
 

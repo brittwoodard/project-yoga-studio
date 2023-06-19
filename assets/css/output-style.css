@@ -504,6 +504,7 @@ footer .button {
   background-color: transparent;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+  outline-width: 1px;
 }
 .form-field::-moz-placeholder {
   text-transform: uppercase;
@@ -516,6 +517,10 @@ footer .button {
   letter-spacing: 0.025em;
   --tw-text-opacity: 1;
   color: rgb(201 115 36 / var(--tw-text-opacity));
+}
+.form-field:focus-visible {
+  outline-style: solid;
+  outline-color: #C97324;
 }
 .absolute {
   position: absolute;
@@ -724,6 +729,9 @@ footer .button {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+.outline-1 {
+  outline-width: 1px;
+}
 .text-light {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -797,6 +805,15 @@ footer .button {
  /* Momence Logo */
  #momence-embed #momence-plugin-host-schedule .momence-host_schedule-powered_by_momence {
   display: none;
+}
+ .focus-visible\:outline:focus-visible {
+  outline-style: solid;
+}
+ .focus-visible\:outline-white:focus-visible {
+  outline-color: #fff;
+}
+ .focus-visible\:outline-pumpkin:focus-visible {
+  outline-color: #C97324;
 }
  @media (min-width: 768px) {
   .md\:flex {
