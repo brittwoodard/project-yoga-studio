@@ -70,7 +70,7 @@
     }
 
     .button {
-        @apply inline-block px-8 py-2 uppercase tracking-widest bg-pumpkin text-white font-sans
+        @apply px-8 py-2 uppercase tracking-widest bg-pumpkin text-white font-sans text-center inline-block
     }
 
     footer .button {
