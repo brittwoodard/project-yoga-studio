@@ -77,11 +77,15 @@
         @apply bg-light text-pumpkin mt-4
     }
 
+    .form-field {
+        @apply placeholder:text-pumpkin placeholder:uppercase placeholder:tracking-wide border-b border-pumpkin py-1 bg-transparent
+    }
+
 
 }
 
 
- #moments-embed #momence-plugin-host-schedule .jDJBAl {
+ #momence-embed #momence-plugin-host-schedule .jDJBAl {
     display: none;
  }
 
@@ -97,7 +101,7 @@
 }
 
 /* Button */
-#moments-embed #momence-plugin-host-schedule .dTMemf {
+#momence-embed #momence-plugin-host-schedule .dTMemf {
     @apply bg-pumpkin text-light uppercase font-sans uppercase font-light tracking-wide
  }
  
@@ -107,26 +111,26 @@
 
  /* Universal Plugin Styles */
  /* NOTE I made the id "moments" instead of "momence" and everything coded accordingly */
- #moments-embed #momence-plugin-host-schedule *{
+ #momence-embed #momence-plugin-host-schedule *{
     @apply bg-transparent border-pumpkin rounded-none text-pumpkin
  }
 
  /* Arrow Button */
- #moments-embed #momence-plugin-host-schedule .momence-arrow-button {
+ #momence-embed #momence-plugin-host-schedule .momence-arrow-button {
     @apply border-none
  }
 
  /* H2 Styles */
- #moments-embed #momence-plugin-host-schedule .momence-event_type_select-button {
+ #momence-embed #momence-plugin-host-schedule .momence-event_type_select-button {
     @apply heading-sm font-serif tracking-wide mb-4
  }
 
  /* Page Numbers Active */
- #moments-embed #momence-plugin-host-schedule .gZOyVg::after {
+ #momence-embed #momence-plugin-host-schedule .gZOyVg::after {
     @apply bg-pumpkin
  }
 
  /* Momence Logo */
- #moments-embed #momence-plugin-host-schedule .momence-host_schedule-powered_by_momence {
+ #momence-embed #momence-plugin-host-schedule .momence-host_schedule-powered_by_momence {
     @apply hidden
  }

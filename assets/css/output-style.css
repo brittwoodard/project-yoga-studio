@@ -496,6 +496,26 @@ footer .button {
   --tw-text-opacity: 1;
   color: rgb(201 115 36 / var(--tw-text-opacity));
 }
+.form-field {
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(201 115 36 / var(--tw-border-opacity));
+  background-color: transparent;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.form-field::-moz-placeholder {
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  --tw-text-opacity: 1;
+  color: rgb(201 115 36 / var(--tw-text-opacity));
+}
+.form-field::placeholder {
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  --tw-text-opacity: 1;
+  color: rgb(201 115 36 / var(--tw-text-opacity));
+}
 .absolute {
   position: absolute;
 }
@@ -533,6 +553,9 @@ footer .button {
 .block {
   display: block;
 }
+.inline-block {
+  display: inline-block;
+}
 .flex {
   display: flex;
 }
@@ -553,6 +576,9 @@ footer .button {
 }
 .w-\[150\%\] {
   width: 150%;
+}
+.w-full {
+  width: 100%;
 }
 .shrink-0 {
   flex-shrink: 0;
@@ -584,6 +610,9 @@ footer .button {
 .gap-4 {
   gap: 1rem;
 }
+.gap-8 {
+  gap: 2rem;
+}
 .divide-x > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-x-reverse: 0;
   border-right-width: calc(1px * var(--tw-divide-x-reverse));
@@ -606,6 +635,9 @@ footer .button {
 }
 .border {
   border-width: 1px;
+}
+.border-b {
+  border-bottom-width: 1px;
 }
 .border-t {
   border-top-width: 1px;
@@ -657,6 +689,10 @@ footer .button {
   padding-left: 4rem;
   padding-right: 4rem;
 }
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -678,6 +714,9 @@ footer .button {
 }
 .uppercase {
   text-transform: uppercase;
+}
+.tracking-wide {
+  letter-spacing: 0.025em;
 }
 .tracking-widest {
   letter-spacing: 0.1em;
@@ -705,7 +744,7 @@ footer .button {
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 
 
- #moments-embed #momence-plugin-host-schedule .jDJBAl {
+ #momence-embed #momence-plugin-host-schedule .jDJBAl {
     display: none;
  }
 
@@ -714,7 +753,7 @@ footer .button {
 /* UTILITY CLASSES */
 
 /* Button */
-#moments-embed #momence-plugin-host-schedule .dTMemf {
+#momence-embed #momence-plugin-host-schedule .dTMemf {
   --tw-bg-opacity: 1;
   background-color: rgb(201 115 36 / var(--tw-bg-opacity));
   font-family: Poppins, sans-serif;
@@ -735,7 +774,7 @@ footer .button {
 
  /* Universal Plugin Styles */
  /* NOTE I made the id "moments" instead of "momence" and everything coded accordingly */
- #moments-embed #momence-plugin-host-schedule * {
+ #momence-embed #momence-plugin-host-schedule * {
   border-radius: 0px;
   --tw-border-opacity: 1;
   border-color: rgb(201 115 36 / var(--tw-border-opacity));
@@ -745,12 +784,12 @@ footer .button {
 }
 
  /* Arrow Button */
- #moments-embed #momence-plugin-host-schedule .momence-arrow-button {
+ #momence-embed #momence-plugin-host-schedule .momence-arrow-button {
   border-style: none;
 }
 
  /* H2 Styles */
- #moments-embed #momence-plugin-host-schedule .momence-event_type_select-button {
+ #momence-embed #momence-plugin-host-schedule .momence-event_type_select-button {
   font-size: 1.5rem;
   line-height: 2rem;
   margin-bottom: 1rem;
@@ -759,14 +798,34 @@ footer .button {
 }
 
  /* Page Numbers Active */
- #moments-embed #momence-plugin-host-schedule .gZOyVg::after {
+ #momence-embed #momence-plugin-host-schedule .gZOyVg::after {
   --tw-bg-opacity: 1;
   background-color: rgb(201 115 36 / var(--tw-bg-opacity));
 }
 
  /* Momence Logo */
- #moments-embed #momence-plugin-host-schedule .momence-host_schedule-powered_by_momence {
+ #momence-embed #momence-plugin-host-schedule .momence-host_schedule-powered_by_momence {
   display: none;
+}
+ .placeholder\:uppercase::-moz-placeholder {
+  text-transform: uppercase;
+}
+ .placeholder\:uppercase::placeholder {
+  text-transform: uppercase;
+}
+ .placeholder\:tracking-wide::-moz-placeholder {
+  letter-spacing: 0.025em;
+}
+ .placeholder\:tracking-wide::placeholder {
+  letter-spacing: 0.025em;
+}
+ .placeholder\:text-pumpkin::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(201 115 36 / var(--tw-text-opacity));
+}
+ .placeholder\:text-pumpkin::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(201 115 36 / var(--tw-text-opacity));
 }
  @media (min-width: 768px) {
   .md\:flex {
