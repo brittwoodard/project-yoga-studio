@@ -1,6 +1,6 @@
 <header class="flex justify-between py-8 px-16 absolute inset-x-0">
     <a href="/index.html" class="text-pumpkin font-serif heading-sm">The Yoga Studio</a>
-    <nav>
+    <nav class="xs:hidden md:visible">
         {% for item in site.data.site-settings.navigation %}
         <a href="{{item.url}}">{{item.title}}</a>
         {% endfor %}

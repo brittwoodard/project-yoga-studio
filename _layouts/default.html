@@ -8,6 +8,13 @@
 <body class="bg-cream">
     <header>
         {% include site-header.html %}
+        <div class="md:hidden absolute bg-white top-5p right-5p w-12 h-12 rounded-full cursor-pointer burger-button">
+            <nav class="burger-menu absolute right-12 flex w-0 overflow-hidden opacity-0 border border-white h-full items-center rounded-full bg-white mr-[-3rem]">
+              <a href="/about" class="px-4">about</a>
+              <a href="" class="px-4">portfolio</a>
+              <a href="/contact" class="px-4">contact</a>
+            </nav>
+         </div>
     </header> 
 
     {{content}}
@@ -15,6 +22,12 @@
 	<footer>
         {% include site-footer.html %}
     </footer> 
+
+<!-- GSAP Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"></script>
+<!-- JS -->
+<script src="/main.js"></script>
 
 </body>
 
