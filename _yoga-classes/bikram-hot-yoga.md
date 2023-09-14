@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Bikram Hot Yoga
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+title: Mysore Ashtanga
+description: Experience a unique form of self-paced, traditional yoga practice. In this style, students follow their own breath and rhythm, receiving personalized instruction and adjustments from the teacher.
 featured_image: uploads/project-yoga-studio-7.jpg
 author: 
 seo: 
-    title: This should appear in the browser tab
-    description: 
-    keywords: 
+    title: Mysore Ashtanga
+    description: Experience a unique form of self-paced, traditional yoga practice. In this style, students follow their own breath and rhythm, receiving personalized instruction and adjustments from the teacher.
+    keywords: Mysore Ashtanga Yoga
     social_image: 
     hide-from-google: false
 ---
