@@ -9,11 +9,11 @@
 @layer base {
 
     body {
-        @apply text-pumpkin
+        @apply text-feature
     }
 
     nav {
-        @apply text-pumpkin font-sans uppercase tracking-wide
+        @apply text-feature font-sans uppercase tracking-wide
     }
 
     header nav a {
@@ -70,15 +70,15 @@
     }
 
     .button {
-        @apply px-8 py-2 uppercase tracking-widest bg-pumpkin text-white font-sans text-center inline-block
+        @apply px-8 py-2 uppercase tracking-widest bg-feature text-white font-sans text-center inline-block
     }
 
     footer .button {
-        @apply bg-light text-pumpkin mt-4
+        @apply bg-light text-feature mt-4
     }
 
     .form-field {
-        @apply placeholder:text-pumpkin placeholder:uppercase placeholder:tracking-wide border-b border-pumpkin py-1 bg-transparent focus-visible:outline focus-visible:outline-pumpkin outline-1
+        @apply placeholder:text-feature placeholder:uppercase placeholder:tracking-wide border-b border-feature py-1 bg-transparent focus-visible:outline focus-visible:outline-feature outline-1
     }
 
 }
@@ -101,7 +101,7 @@
 
 /* Button */
 #momence-embed #momence-plugin-host-schedule .dTMemf {
-    @apply bg-pumpkin text-light uppercase font-sans uppercase font-light tracking-wide
+    @apply bg-feature text-light uppercase font-sans uppercase font-light tracking-wide
  }
  
  .bg-image-style {
@@ -111,7 +111,7 @@
  /* Universal Plugin Styles */
  /* NOTE I made the id "moments" instead of "momence" and everything coded accordingly */
  #momence-embed #momence-plugin-host-schedule *{
-    @apply bg-transparent border-pumpkin rounded-none text-pumpkin
+    @apply bg-transparent border-feature rounded-none text-feature
  }
 
  /* Arrow Button */
@@ -126,7 +126,7 @@
 
  /* Page Numbers Active */
  #momence-embed #momence-plugin-host-schedule .gZOyVg::after {
-    @apply bg-pumpkin
+    @apply bg-feature
  }
 
  /* Momence Logo */

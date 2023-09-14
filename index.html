@@ -37,11 +37,11 @@ seo:
 {% include split-section.html %}
 
 <!-- Our Classes -->
-<section class="grid grid-cols-2">
-  <div class="bg-image-style flex flex-col justify-end text-light border-y border-l border-pumpkin" style="background-image: url('{{page.classes.image.image_path}}'); background-position: {{page.classes.image.image_focus}};">
+<section class="grid md:grid-cols-2">
+  <div class="bg-image-style flex flex-col justify-end text-light border-y border-l border-feature bg-fixed" style="background-image: url('{{page.classes.image.image_path}}'); background-position: {{page.classes.image.image_focus}};">
     {% include cta.html cta=page.classes %}
   </div>
-  <div class="grid grid-cols-2 divide-x divide-y divide-pumpkin overflow-clip border border-pumpkin">
+  <div class="grid grid-cols-2 divide-x divide-y divide-feature overflow-clip border border-feature">
     {% for item in site.yoga-classes limit:4 %}
     <div class="-m-px">
         {% include class-loop-item-square.html %}
@@ -53,7 +53,7 @@ seo:
 <!-- Teachers -->
 <section class="p-5p">
   <h2 class="heading-md">Meet our Teachers</h2>
-  <div class="grid grid-cols-3 gap-4">
+  <div class="grid md:grid-cols-3 gap-4">
     {% for item in site.teachers limit:3 %}
       {% include teacher-loop-item-square.html %}
     {% endfor %}

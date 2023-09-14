@@ -32,7 +32,7 @@ module.exports = {
         '50': '50vh',
       },
       colors: {
-        'pumpkin': '#C97324',
+        'feature': '#C97324',
         'cream': '#FBF2E9',
         'light': 'white',
       }
