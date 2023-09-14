@@ -620,6 +620,9 @@ footer .button {
 .w-full {
   width: 100%;
 }
+.w-\[75\%\] {
+  width: 75%;
+}
 .shrink {
   flex-shrink: 1;
 }
@@ -640,6 +643,9 @@ footer .button {
 }
 .flex-col {
   flex-direction: column;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
 }
 .items-end {
   align-items: flex-end;
@@ -678,6 +684,9 @@ footer .button {
 }
 .overflow-clip {
   overflow: clip;
+}
+.overflow-x-auto {
+  overflow-x: auto;
 }
 .border {
   border-width: 1px;
