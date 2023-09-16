@@ -2,13 +2,13 @@
 layout: post
 title: Guided Primary Series
 description: Discover the dynamic and guided practice of Ashtanga yoga. Led by an authorized teacher, you'll flow through the Ashtanga sequence in sync with fellow yogis, fostering a sense of community and discipline.
-featured_image: uploads/project-yoga-studio-3.jpg
+featured_image: /uploads/samadhi-shala-8.jpg
 author: 
 seo: 
     title: This should appear in the browser tab
     description: Discover the dynamic and guided practice of Ashtanga yoga. Led by an authorized teacher, you'll flow through the Ashtanga sequence in sync with fellow yogis, fostering a sense of community and discipline.
     keywords: beginner ashtanga yoga
-    social_image: 
+    social_image: /uploads/samadhi-shala-8.jpg
     hide-from-google: false
 ---
 
