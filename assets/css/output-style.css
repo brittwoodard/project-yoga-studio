@@ -608,6 +608,9 @@ footer .button {
 .min-h-\[90vh\] {
   min-height: 90vh;
 }
+.min-h-\[80vh\] {
+  min-height: 80vh;
+}
 .w-1\/3 {
   width: 33.333333%;
 }

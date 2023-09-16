@@ -3,7 +3,8 @@ layout: default
 banner:
   intro: Welcome to
   heading: Samadhi Shala
-  image_path: /uploads/samadhi-shala-2.jpg
+  image_path: /uploads/samadhi-shala-12.jpg
+  image_focus: center
 cta:
   heading: $108 Unlimited Yoga Pass
   description: >-
@@ -14,8 +15,8 @@ cta:
     url: '#'
     text: Sign Up
   image:
-    image_path: /uploads/samadhi-shala-9.jpg
-    image_focus: top
+    image_path: /uploads/samadhi-shala-13.jpg
+    image_focus: center
 classes:
   heading: Classes
   description: >-
@@ -45,7 +46,7 @@ seo:
 
 <!-- Our Classes -->
 <section class="grid md:grid-cols-2">
-  <div class="bg-image-style flex flex-col justify-end text-light border-y border-l border-feature bg-fixed" style="background-image: url('{{page.classes.image.image_path}}'); background-position: {{page.classes.image.image_focus}};">
+  <div class="bg-image-style flex flex-col justify-end text-light border-y border-l border-feature" style="background-image: url('{{page.classes.image.image_path}}'); background-position: {{page.classes.image.image_focus}};">
     {% include cta.html cta=page.classes %}
   </div>
   <div class="grid grid-cols-2 divide-x divide-y divide-feature overflow-clip border border-feature">
