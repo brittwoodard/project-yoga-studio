@@ -2,13 +2,13 @@
 layout: post
 title: Yin
 description: Find balance with a class that complements the dynamic Ashtanga method. Delve deep into your body, embrace relaxation, and cultivate mindfulness for a harmonized practice.
-featured_image: uploads/project-yoga-studio-9.jpg
+featured_image: https://source.unsplsh.com/nyxX6mk7xf0
 author: 
 seo: 
     title: Yin
     description: Find balance within your yoga practice with a class that complements the dynamic Ashtanga method. Delve deep into your body, embrace relaxation, and cultivate mindfulness for a harmonized practice.
     keywords: yin yoga
-    social_image: 
+    social_image: https://source.unsplsh.com/nyxX6mk7xf0
     hide-from-google: false
 ---
 
