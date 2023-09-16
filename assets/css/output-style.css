@@ -312,7 +312,7 @@ video {
 }
 body {
   --tw-text-opacity: 1;
-  color: rgb(176 135 134 / var(--tw-text-opacity));
+  color: rgb(48 44 43 / var(--tw-text-opacity));
 }
 nav {
   font-family: Poppins, sans-serif;
@@ -346,6 +346,11 @@ footer nav a {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+footer nav a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(207 151 114 / var(--tw-text-opacity));
+  transition-duration: 200ms;
+}
 h1,
     h2,
     h3,
@@ -355,6 +360,8 @@ h1,
   margin-bottom: 1rem;
   font-family: Oranienbaum, serif;
   letter-spacing: 0.025em;
+  --tw-text-opacity: 1;
+  color: rgb(176 135 134 / var(--tw-text-opacity));
 }
 p {
   margin-bottom: 1rem;
@@ -506,7 +513,7 @@ p {
 .button {
   display: inline-block;
   --tw-bg-opacity: 1;
-  background-color: rgb(176 135 134 / var(--tw-bg-opacity));
+  background-color: rgb(207 151 114 / var(--tw-bg-opacity));
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 0.5rem;
@@ -517,6 +524,10 @@ p {
   letter-spacing: 0.1em;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.button:hover {
+  opacity: 0.8;
+  transition-duration: 200ms;
 }
 footer .button {
   margin-top: 1rem;
@@ -717,6 +728,12 @@ footer .button {
 .bg-transparent {
   background-color: transparent;
 }
+.bg-fixed {
+  background-attachment: fixed;
+}
+.p-10 {
+  padding: 2.5rem;
+}
 .p-10p {
   padding: 10%;
 }
@@ -763,7 +780,7 @@ footer .button {
 }
 .text-dark {
   --tw-text-opacity: 1;
-  color: rgb(30 12 61 / var(--tw-text-opacity));
+  color: rgb(48 44 43 / var(--tw-text-opacity));
 }
 .text-feature {
   --tw-text-opacity: 1;

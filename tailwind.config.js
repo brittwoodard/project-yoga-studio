@@ -36,7 +36,7 @@ module.exports = {
         'accent': '#cf9772',
         'cream': '#e3dfd9',
         'light': 'white',
-        'dark': '#1e0c3d'
+        'dark': '#302c2b'
       }
     },
   },

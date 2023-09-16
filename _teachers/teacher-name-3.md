@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Duis Aute
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-featured_image: uploads/project-yoga-studio-6.jpg
+title: Manon Fournier
+description: Manon, a Yin Yoga teacher and devoted sound healer, has a heart for healing through sound and stillness. She creates tranquil spaces where deep relaxation and rejuvenation flourish, offering holistic wellness for the mind, body, and soul.
+featured_image: /uploads/samadhi-shala-16.jpg
 featured_teacher: true
 author: 
 seo: 
-    title: This should appear in the browser tab
-    description: 
-    keywords: 
-    social_image: 
+    title: Manon Fournier
+    description: Manon, a Yin Yoga teacher and devoted sound healer, has a heart for healing through sound and stillness. She creates tranquil spaces where deep relaxation and rejuvenation flourish, offering holistic wellness for the mind, body, and soul.
+    keywords: Yin Yoga Teacher, Sound Healer
+    social_image: /uploads/samadhi-shala-16.jpg
     hide-from-google: false
 ---
 
 ## This is a heading in our blog post 
 
-This  is a paragraph in our blog post lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium doloribus debitis esse cum neque laborum iure sed architecto adipisci maxime quo minus blanditiis exercitationem, sit incidunt dolor similique animi porro.
+When Manon begins blogging, you will see it here first.

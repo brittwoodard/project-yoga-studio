@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Duis Aute
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-featured_image: uploads/project-yoga-studio-4.jpg
+title: Chloe Laurent
+description: Chloe, a dedicated Ashtanga Level II Authorized Teacher, embarked on her Ashtanga journey under the guidance of Sharath Jois in 2009. Today, she continues her studies within the Jois family lineage, nurturing her unwavering commitment to its practice.
+featured_image: /uploads/samadhi-shala-14.jpg
 featured_teacher: true
 author: 
 seo: 
-    title: This should appear in the browser tab
-    description: 
-    keywords: 
-    social_image: 
+    title: Chloe Laurent
+    description: Chloe, a dedicated Ashtanga Level II Authorized Teacher, embarked on her Ashtanga journey under the guidance of Sharath Jois in 2009. Today, she continues her studies within the Jois family lineage, nurturing her unwavering commitment to its practice.
+    keywords: Ashtanga Yoga Teacher, Authorized Ashtanga Teacher
+    social_image: /uploads/samadhi-shala-14.jpg
     hide-from-google: false
 ---
 
 ## This is a heading in our blog post 
 
-This  is a paragraph in our blog post lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium doloribus debitis esse cum neque laborum iure sed architecto adipisci maxime quo minus blanditiis exercitationem, sit incidunt dolor similique animi porro.
+When Chloe begins blogging, you will see it here first.
