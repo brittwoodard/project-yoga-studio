@@ -620,9 +620,6 @@ footer .button {
 .w-full {
   width: 100%;
 }
-.w-\[75\%\] {
-  width: 75%;
-}
 .shrink {
   flex-shrink: 1;
 }
@@ -635,17 +632,8 @@ footer .button {
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
-.grid-cols-5 {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-}
-.flex-row-reverse {
-  flex-direction: row-reverse;
-}
 .flex-col {
   flex-direction: column;
-}
-.flex-nowrap {
-  flex-wrap: nowrap;
 }
 .items-end {
   align-items: flex-end;
@@ -684,9 +672,6 @@ footer .button {
 }
 .overflow-clip {
   overflow: clip;
-}
-.overflow-x-auto {
-  overflow-x: auto;
 }
 .border {
   border-width: 1px;
@@ -877,9 +862,6 @@ footer .button {
  @media (min-width: 768px) {
   .md\:visible {
     visibility: visible;
-  }
-  .md\:col-span-3 {
-    grid-column: span 3 / span 3;
   }
   .md\:mt-0 {
     margin-top: 0px;
