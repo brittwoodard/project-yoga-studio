@@ -2,13 +2,13 @@
 layout: post
 title: 5-Day Introduction
 description: Explore the core principles, postures, and breathing techniques of Ashtanga Yoga, setting the foundation for a lifelong yoga practice during this immersive program.
-featured_image: uploads/project-yoga-studio-8.jpg
+featured_image: uploads/samadhi-shala-7.jpg
 author: 
 seo: 
     title: 5-Day Introduction
     description: Explore the core principles, postures, and breathing techniques of Ashtanga Yoga, setting the foundation for a lifelong yoga practice during this immersive program.
     keywords: ashtanga yoga, mysore
-    social_image: 
+    social_image: uploads/samadhi-shala-7.jpg
     hide-from-google: false
 ---
 

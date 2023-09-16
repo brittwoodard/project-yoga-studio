@@ -2,13 +2,13 @@
 layout: post
 title: Mysore Ashtanga
 description: Experience a unique form of self-paced, traditional yoga practice. In this style, students follow their own breath and rhythm, receiving personalized instruction and adjustments from the teacher.
-featured_image: uploads/project-yoga-studio-7.jpg
+featured_image: uploads/uploads/samadhi-shala-8.jpg
 author: 
 seo: 
     title: Mysore Ashtanga
     description: Experience a unique form of self-paced, traditional yoga practice. In this style, students follow their own breath and rhythm, receiving personalized instruction and adjustments from the teacher.
     keywords: Mysore Ashtanga Yoga
-    social_image: 
+    social_image: uploads/uploads/samadhi-shala-8.jpg
     hide-from-google: false
 ---
 
