@@ -32,9 +32,10 @@ module.exports = {
         '50': '50vh',
       },
       colors: {
-        'feature': '#C97324',
-        'cream': '#FBF2E9',
+        'feature': '#b08786',
+        'cream': '#e3dfd9',
         'light': 'white',
+        'dark': '#b08786',
       }
     },
   },

@@ -312,14 +312,14 @@ video {
 }
 body {
   --tw-text-opacity: 1;
-  color: rgb(201 115 36 / var(--tw-text-opacity));
+  color: rgb(176 135 134 / var(--tw-text-opacity));
 }
 nav {
   font-family: Poppins, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.025em;
   --tw-text-opacity: 1;
-  color: rgb(201 115 36 / var(--tw-text-opacity));
+  color: rgb(176 135 134 / var(--tw-text-opacity));
 }
 header nav a {
   margin-top: 0.5rem;
@@ -506,7 +506,7 @@ p {
 .button {
   display: inline-block;
   --tw-bg-opacity: 1;
-  background-color: rgb(201 115 36 / var(--tw-bg-opacity));
+  background-color: rgb(176 135 134 / var(--tw-bg-opacity));
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 0.5rem;
@@ -523,12 +523,12 @@ footer .button {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
-  color: rgb(201 115 36 / var(--tw-text-opacity));
+  color: rgb(176 135 134 / var(--tw-text-opacity));
 }
 .form-field {
   border-bottom-width: 1px;
   --tw-border-opacity: 1;
-  border-color: rgb(201 115 36 / var(--tw-border-opacity));
+  border-color: rgb(176 135 134 / var(--tw-border-opacity));
   background-color: transparent;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -538,17 +538,17 @@ footer .button {
   text-transform: uppercase;
   letter-spacing: 0.025em;
   --tw-text-opacity: 1;
-  color: rgb(201 115 36 / var(--tw-text-opacity));
+  color: rgb(176 135 134 / var(--tw-text-opacity));
 }
 .form-field::placeholder {
   text-transform: uppercase;
   letter-spacing: 0.025em;
   --tw-text-opacity: 1;
-  color: rgb(201 115 36 / var(--tw-text-opacity));
+  color: rgb(176 135 134 / var(--tw-text-opacity));
 }
 .form-field:focus-visible {
   outline-style: solid;
-  outline-color: #C97324;
+  outline-color: #b08786;
 }
 .absolute {
   position: absolute;
@@ -602,14 +602,11 @@ footer .button {
 .aspect-square {
   aspect-ratio: 1 / 1;
 }
-.min-h-\[75vh\] {
-  min-height: 75vh;
+.min-h-\[80vh\] {
+  min-height: 80vh;
 }
 .min-h-\[90vh\] {
   min-height: 90vh;
-}
-.min-h-\[80vh\] {
-  min-height: 80vh;
 }
 .w-1\/3 {
   width: 33.333333%;
@@ -668,7 +665,7 @@ footer .button {
 }
 .divide-feature > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-opacity: 1;
-  border-color: rgb(201 115 36 / var(--tw-divide-opacity));
+  border-color: rgb(176 135 134 / var(--tw-divide-opacity));
 }
 .self-center {
   align-self: center;
@@ -691,7 +688,7 @@ footer .button {
 }
 .border-feature {
   --tw-border-opacity: 1;
-  border-color: rgb(201 115 36 / var(--tw-border-opacity));
+  border-color: rgb(176 135 134 / var(--tw-border-opacity));
 }
 .border-white {
   --tw-border-opacity: 1;
@@ -699,11 +696,11 @@ footer .button {
 }
 .bg-cream {
   --tw-bg-opacity: 1;
-  background-color: rgb(251 242 233 / var(--tw-bg-opacity));
+  background-color: rgb(227 223 217 / var(--tw-bg-opacity));
 }
 .bg-feature {
   --tw-bg-opacity: 1;
-  background-color: rgb(201 115 36 / var(--tw-bg-opacity));
+  background-color: rgb(176 135 134 / var(--tw-bg-opacity));
 }
 .bg-stone-100 {
   --tw-bg-opacity: 1;
@@ -719,9 +716,6 @@ footer .button {
 }
 .bg-transparent {
   background-color: transparent;
-}
-.bg-fixed {
-  background-attachment: fixed;
 }
 .p-10p {
   padding: 10%;
@@ -769,7 +763,7 @@ footer .button {
 }
 .text-feature {
   --tw-text-opacity: 1;
-  color: rgb(201 115 36 / var(--tw-text-opacity));
+  color: rgb(176 135 134 / var(--tw-text-opacity));
 }
 .text-light {
   --tw-text-opacity: 1;
@@ -778,6 +772,14 @@ footer .button {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-dark {
+  --tw-text-opacity: 1;
+  color: rgb(176 135 134 / var(--tw-text-opacity));
+}
+.text-\[\#b08786\] {
+  --tw-text-opacity: 1;
+  color: rgb(176 135 134 / var(--tw-text-opacity));
 }
 .outline-1 {
   outline-width: 1px;
@@ -804,7 +806,7 @@ footer .button {
 /* Button */
 #momence-embed #momence-plugin-host-schedule .dTMemf {
   --tw-bg-opacity: 1;
-  background-color: rgb(201 115 36 / var(--tw-bg-opacity));
+  background-color: rgb(176 135 134 / var(--tw-bg-opacity));
   font-family: Poppins, sans-serif;
   font-weight: 300;
   text-transform: uppercase;
@@ -826,10 +828,10 @@ footer .button {
  #momence-embed #momence-plugin-host-schedule * {
   border-radius: 0px;
   --tw-border-opacity: 1;
-  border-color: rgb(201 115 36 / var(--tw-border-opacity));
+  border-color: rgb(176 135 134 / var(--tw-border-opacity));
   background-color: transparent;
   --tw-text-opacity: 1;
-  color: rgb(201 115 36 / var(--tw-text-opacity));
+  color: rgb(176 135 134 / var(--tw-text-opacity));
 }
 
  /* Arrow Button */
@@ -849,7 +851,7 @@ footer .button {
  /* Page Numbers Active */
  #momence-embed #momence-plugin-host-schedule .gZOyVg::after {
   --tw-bg-opacity: 1;
-  background-color: rgb(201 115 36 / var(--tw-bg-opacity));
+  background-color: rgb(176 135 134 / var(--tw-bg-opacity));
 }
 
  /* Momence Logo */
@@ -860,7 +862,7 @@ footer .button {
   outline-style: solid;
 }
  .focus-visible\:outline-feature:focus-visible {
-  outline-color: #C97324;
+  outline-color: #b08786;
 }
  @media (min-width: 768px) {
   .md\:visible {
