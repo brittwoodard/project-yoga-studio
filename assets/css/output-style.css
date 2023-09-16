@@ -761,32 +761,20 @@ footer .button {
 .tracking-widest {
   letter-spacing: 0.1em;
 }
+.text-dark {
+  --tw-text-opacity: 1;
+  color: rgb(30 12 61 / var(--tw-text-opacity));
+}
 .text-feature {
   --tw-text-opacity: 1;
   color: rgb(176 135 134 / var(--tw-text-opacity));
-}
-.text-light {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-.text-dark {
-  --tw-text-opacity: 1;
-  color: rgb(176 135 134 / var(--tw-text-opacity));
-}
-.text-\[\#b08786\] {
-  --tw-text-opacity: 1;
-  color: rgb(176 135 134 / var(--tw-text-opacity));
-}
 .outline-1 {
   outline-width: 1px;
-}
-.text-light {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 
@@ -806,7 +794,7 @@ footer .button {
 /* Button */
 #momence-embed #momence-plugin-host-schedule .dTMemf {
   --tw-bg-opacity: 1;
-  background-color: rgb(176 135 134 / var(--tw-bg-opacity));
+  background-color: rgb(207 151 114 / var(--tw-bg-opacity));
   font-family: Poppins, sans-serif;
   font-weight: 300;
   text-transform: uppercase;

@@ -33,9 +33,10 @@ module.exports = {
       },
       colors: {
         'feature': '#b08786',
+        'accent': '#cf9772',
         'cream': '#e3dfd9',
         'light': 'white',
-        'dark': '#b08786',
+        'dark': '#1e0c3d'
       }
     },
   },

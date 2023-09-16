@@ -101,7 +101,7 @@
 
 /* Button */
 #momence-embed #momence-plugin-host-schedule .dTMemf {
-    @apply bg-feature text-light uppercase font-sans uppercase font-light tracking-wide
+    @apply bg-accent text-white uppercase font-sans font-light tracking-wide
  }
  
  .bg-image-style {
