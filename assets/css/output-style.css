@@ -728,10 +728,6 @@ footer .button {
 .bg-transparent {
   background-color: transparent;
 }
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
 .bg-fixed {
   background-attachment: fixed;
 }
@@ -794,18 +790,24 @@ footer .button {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-.opacity-70 {
-  opacity: 0.7;
-}
-.opacity-75 {
-  opacity: 0.75;
-}
-.opacity-60 {
-  opacity: 0.6;
-}
 .outline-1 {
   outline-width: 1px;
 }
+.bg-overlay {
+        position: relative;
+      }
+.bg-overlay::before {
+        content: ""; 
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(255,255,255,0.75);
+      }
+.bg-overlay > * {
+        position: relative;
+      }
 
 
 /* ----------- Default Styles to apply to the whole project  --------- */
@@ -903,8 +905,5 @@ footer .button {
   }
   .md\:grid-cols-5 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
-  }
-  .md\:bg-fixed {
-    background-attachment: fixed;
   }
 }
