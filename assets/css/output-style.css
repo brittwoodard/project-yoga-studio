@@ -331,6 +331,10 @@ header nav a {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+header nav a:hover {
+  opacity: 0.5;
+  transition-duration: 200ms;
+}
 footer h2 {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
