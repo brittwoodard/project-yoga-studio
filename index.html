@@ -46,8 +46,14 @@ seo:
 
 <!-- Our Classes -->
 <section class="grid md:grid-cols-2">
-  <div class="bg-image-style md:bg-fixed flex flex-col justify-end text-dark border-y border-l border-feature" style="background-image: url('{{page.classes.image.image_path}}'); background-position: {{page.classes.image.image_focus}};">
-    {% include cta.html cta=page.classes %}
+  <div class="bg-image-style bg-fixed flex flex-col justify-end text-dark border-y border-l border-feature" style="background-image: url('{{page.classes.image.image_path}}'); background-position: {{page.classes.image.image_focus}};">
+    <div class="p-10">
+      <div class="p-10 bg-white opacity-60">
+        <h2 class="heading-md scroll-in-from-bottom ">{{page.classes.heading}}</h2>
+        <p class="scroll-in-from-bottom">{{page.classes.description}}</p>
+        <a href="{{page.classes.button.url}}" class="button scroll-in-from-bottom ">{{page.classes.button.text}}</a>
+      </div>
+    </div>
   </div>
   <div class="grid grid-cols-2 divide-x divide-y divide-feature overflow-clip border border-feature">
     {% for item in site.yoga-classes limit:4 %}
