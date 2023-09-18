@@ -124,49 +124,26 @@
     }
 
     .bg-overlay>* {
-        position: relative;
+        @apply relative
     }
 
-    /* Hamburger Menu */
+    /* Mobile Menu */
     .hamburger-button {
-        cursor: pointer;
-        padding: 0 0.5rem;
-        display: inline-block;
-        font-weight: 200;
-        font-size: 2.5rem;
-        line-height: 0.8;
-        margin-top: -0.7rem;
-        position: fixed;
-        right: 1rem;
-        top: 2.5rem;
-        z-index: 2;
+        @apply cursor-pointer px-2 py-0 inline-block font-light text-base leading-tight fixed right-5p top-[2.2rem] z-30 text-feature
     }
 
     .hamburger-button.active {
-        color: white;
+        @apply text-accent
     }
 
 
     .mobile-menu {
-        display: none;
-        background-color: lightblue;
-        padding: 5%;
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        text-align: center;
+        @apply hidden bg-cream p-5p fixed inset-0 text-center opacity-90 z-20
     }
 
 
     .mobile-menu a {
-        text-decoration: none;
-        color: inherit;
-        padding: 5vh 5%;
-        display: block;
-        font-weight: normal;
-        font-size: 1.5rem;
+        @apply block py-[5vh] px-5p
     }
 
 }

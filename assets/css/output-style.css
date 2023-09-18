@@ -485,34 +485,6 @@ p {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.container {
-  width: 100%;
-}
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
 .button {
   display: inline-block;
   --tw-bg-opacity: 1;
@@ -583,9 +555,6 @@ footer .button {
 .col-span-5 {
   grid-column: span 5 / span 5;
 }
-.col-span-7 {
-  grid-column: span 7 / span 7;
-}
 .-m-px {
   margin: -1px;
 }
@@ -636,9 +605,6 @@ footer .button {
 }
 .w-full {
   width: 100%;
-}
-.shrink {
-  flex-shrink: 1;
 }
 .shrink-0 {
   flex-shrink: 0;
@@ -812,44 +778,49 @@ footer .button {
         background-color: rgba(255, 255, 255, 0.75);
     }
 .bg-overlay>* {
-        position: relative;
-    }
-/* Hamburger Menu */
+  position: relative;
+}
+/* Mobile Menu */
 .hamburger-button {
-        cursor: pointer;
-        padding: 0 0.5rem;
-        display: inline-block;
-        font-weight: 200;
-        font-size: 2.5rem;
-        line-height: 0.8;
-        margin-top: -0.7rem;
-        position: fixed;
-        right: 1rem;
-        top: 2.5rem;
-        z-index: 2;
-    }
+  position: fixed;
+  right: 5%;
+  top: 2.2rem;
+  z-index: 30;
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+  line-height: 1.25;
+  --tw-text-opacity: 1;
+  color: rgb(176 135 134 / var(--tw-text-opacity));
+}
 .hamburger-button.active {
-        color: white;
-    }
+  --tw-text-opacity: 1;
+  color: rgb(207 151 114 / var(--tw-text-opacity));
+}
 .mobile-menu {
-        display: none;
-        background-color: lightblue;
-        padding: 5%;
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        text-align: center;
-    }
+  position: fixed;
+  inset: 0px;
+  z-index: 20;
+  display: none;
+  --tw-bg-opacity: 1;
+  background-color: rgb(227 223 217 / var(--tw-bg-opacity));
+  padding: 5%;
+  text-align: center;
+  opacity: 0.9;
+}
 .mobile-menu a {
-        text-decoration: none;
-        color: inherit;
-        padding: 5vh 5%;
-        display: block;
-        font-weight: normal;
-        font-size: 1.5rem;
-    }
+  display: block;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 5%;
+  padding-right: 5%;
+}
 
 
 /* ----------- Default Styles to apply to the whole project  --------- */
@@ -927,9 +898,6 @@ footer .button {
   outline-color: #b08786;
 }
 @media (min-width: 768px) {
-  .md\:visible {
-    visibility: visible;
-  }
   .md\:mt-0 {
     margin-top: 0px;
   }
@@ -938,9 +906,6 @@ footer .button {
   }
   .md\:flex {
     display: flex;
-  }
-  .md\:grid {
-    display: grid;
   }
   .md\:hidden {
     display: none;
