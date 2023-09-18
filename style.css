@@ -37,7 +37,7 @@
     }
 
     footer nav a:hover {
-        @apply text-accent duration-200
+        @apply opacity-50 duration-200
     }
 
     h1,
