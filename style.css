@@ -96,9 +96,9 @@
 }
 
 
- #momence-embed #momence-plugin-host-schedule .jDJBAl {
+#momence-embed #momence-plugin-host-schedule .jDJBAl {
     display: none;
- }
+}
 
 
 
@@ -111,55 +111,97 @@
 
     .bg-overlay {
         position: relative;
-      }
-      
-      .bg-overlay::before {
-        content: ""; 
+    }
+
+    .bg-overlay::before {
+        content: "";
         position: absolute;
         top: 0;
         left: 0;
         bottom: 0;
         right: 0;
-        background-color: rgba(255,255,255,0.75);
-      }
-      
-      .bg-overlay > * {
+        background-color: rgba(255, 255, 255, 0.75);
+    }
+
+    .bg-overlay>* {
         position: relative;
-      }
+    }
+
+    /* Hamburger Menu */
+    .hamburger-button {
+        cursor: pointer;
+        padding: 0 0.5rem;
+        display: inline-block;
+        font-weight: 200;
+        font-size: 2.5rem;
+        line-height: 0.8;
+        margin-top: -0.7rem;
+        position: fixed;
+        right: 1rem;
+        top: 2.5rem;
+        z-index: 2;
+    }
+
+    .hamburger-button.active {
+        color: white;
+    }
+
+
+    .mobile-menu {
+        display: none;
+        background-color: lightblue;
+        padding: 5%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+
+    .mobile-menu a {
+        text-decoration: none;
+        color: inherit;
+        padding: 5vh 5%;
+        display: block;
+        font-weight: normal;
+        font-size: 1.5rem;
+    }
 
 }
 
 /* Button */
 #momence-embed #momence-plugin-host-schedule .dTMemf {
     @apply bg-accent text-white uppercase font-sans font-light tracking-wide
- }
- 
- .bg-image-style {
-     @apply bg-[#EED5BD] bg-cover bg-no-repeat bg-center
- }
+}
 
- /* Universal Plugin Styles */
- /* NOTE I made the id "moments" instead of "momence" and everything coded accordingly */
- #momence-embed #momence-plugin-host-schedule *{
+.bg-image-style {
+    @apply bg-[#EED5BD] bg-cover bg-no-repeat bg-center
+}
+
+/* Universal Plugin Styles */
+/* NOTE I made the id "moments" instead of "momence" and everything coded accordingly */
+#momence-embed #momence-plugin-host-schedule * {
     @apply bg-transparent border-feature rounded-none text-feature
- }
+}
 
- /* Arrow Button */
- #momence-embed #momence-plugin-host-schedule .momence-arrow-button {
+/* Arrow Button */
+#momence-embed #momence-plugin-host-schedule .momence-arrow-button {
     @apply border-none
- }
+}
 
- /* H2 Styles */
- #momence-embed #momence-plugin-host-schedule .momence-event_type_select-button {
+/* H2 Styles */
+#momence-embed #momence-plugin-host-schedule .momence-event_type_select-button {
     @apply heading-sm font-serif tracking-wide mb-4
- }
+}
 
- /* Page Numbers Active */
- #momence-embed #momence-plugin-host-schedule .gZOyVg::after {
+/* Page Numbers Active */
+#momence-embed #momence-plugin-host-schedule .gZOyVg::after {
     @apply bg-feature
- }
+}
 
- /* Momence Logo */
- #momence-embed #momence-plugin-host-schedule .momence-host_schedule-powered_by_momence {
+/* Momence Logo */
+#momence-embed #momence-plugin-host-schedule .momence-host_schedule-powered_by_momence {
     @apply hidden
- }
+}

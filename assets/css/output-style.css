@@ -583,6 +583,9 @@ footer .button {
 .col-span-5 {
   grid-column: span 5 / span 5;
 }
+.col-span-7 {
+  grid-column: span 7 / span 7;
+}
 .-m-px {
   margin: -1px;
 }
@@ -649,9 +652,6 @@ footer .button {
 .flex-col {
   flex-direction: column;
 }
-.flex-nowrap {
-  flex-wrap: nowrap;
-}
 .items-end {
   align-items: flex-end;
 }
@@ -689,9 +689,6 @@ footer .button {
 }
 .overflow-clip {
   overflow: clip;
-}
-.overflow-x-auto {
-  overflow-x: auto;
 }
 .border {
   border-width: 1px;
@@ -763,10 +760,6 @@ footer .button {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-.py-5p {
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
 .text-center {
   text-align: center;
 }
@@ -808,19 +801,55 @@ footer .button {
 }
 .bg-overlay {
         position: relative;
-      }
+    }
 .bg-overlay::before {
-        content: ""; 
+        content: "";
         position: absolute;
         top: 0;
         left: 0;
         bottom: 0;
         right: 0;
-        background-color: rgba(255,255,255,0.75);
-      }
-.bg-overlay > * {
+        background-color: rgba(255, 255, 255, 0.75);
+    }
+.bg-overlay>* {
         position: relative;
-      }
+    }
+/* Hamburger Menu */
+.hamburger-button {
+        cursor: pointer;
+        padding: 0 0.5rem;
+        display: inline-block;
+        font-weight: 200;
+        font-size: 2.5rem;
+        line-height: 0.8;
+        margin-top: -0.7rem;
+        position: fixed;
+        right: 1rem;
+        top: 2.5rem;
+        z-index: 2;
+    }
+.hamburger-button.active {
+        color: white;
+    }
+.mobile-menu {
+        display: none;
+        background-color: lightblue;
+        padding: 5%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+.mobile-menu a {
+        text-decoration: none;
+        color: inherit;
+        padding: 5vh 5%;
+        display: block;
+        font-weight: normal;
+        font-size: 1.5rem;
+    }
 
 
 /* ----------- Default Styles to apply to the whole project  --------- */
@@ -828,9 +857,9 @@ footer .button {
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 
 
- #momence-embed #momence-plugin-host-schedule .jDJBAl {
+#momence-embed #momence-plugin-host-schedule .jDJBAl {
     display: none;
- }
+}
 
 
 
@@ -847,8 +876,8 @@ footer .button {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
- 
- .bg-image-style {
+
+.bg-image-style {
   --tw-bg-opacity: 1;
   background-color: rgb(238 213 189 / var(--tw-bg-opacity));
   background-size: cover;
@@ -856,9 +885,9 @@ footer .button {
   background-repeat: no-repeat;
 }
 
- /* Universal Plugin Styles */
- /* NOTE I made the id "moments" instead of "momence" and everything coded accordingly */
- #momence-embed #momence-plugin-host-schedule * {
+/* Universal Plugin Styles */
+/* NOTE I made the id "moments" instead of "momence" and everything coded accordingly */
+#momence-embed #momence-plugin-host-schedule * {
   border-radius: 0px;
   --tw-border-opacity: 1;
   border-color: rgb(176 135 134 / var(--tw-border-opacity));
@@ -867,13 +896,13 @@ footer .button {
   color: rgb(176 135 134 / var(--tw-text-opacity));
 }
 
- /* Arrow Button */
- #momence-embed #momence-plugin-host-schedule .momence-arrow-button {
+/* Arrow Button */
+#momence-embed #momence-plugin-host-schedule .momence-arrow-button {
   border-style: none;
 }
 
- /* H2 Styles */
- #momence-embed #momence-plugin-host-schedule .momence-event_type_select-button {
+/* H2 Styles */
+#momence-embed #momence-plugin-host-schedule .momence-event_type_select-button {
   font-size: 1.5rem;
   line-height: 2rem;
   margin-bottom: 1rem;
@@ -881,23 +910,23 @@ footer .button {
   letter-spacing: 0.025em;
 }
 
- /* Page Numbers Active */
- #momence-embed #momence-plugin-host-schedule .gZOyVg::after {
+/* Page Numbers Active */
+#momence-embed #momence-plugin-host-schedule .gZOyVg::after {
   --tw-bg-opacity: 1;
   background-color: rgb(176 135 134 / var(--tw-bg-opacity));
 }
 
- /* Momence Logo */
- #momence-embed #momence-plugin-host-schedule .momence-host_schedule-powered_by_momence {
+/* Momence Logo */
+#momence-embed #momence-plugin-host-schedule .momence-host_schedule-powered_by_momence {
   display: none;
 }
- .focus-visible\:outline:focus-visible {
+.focus-visible\:outline:focus-visible {
   outline-style: solid;
 }
- .focus-visible\:outline-feature:focus-visible {
+.focus-visible\:outline-feature:focus-visible {
   outline-color: #b08786;
 }
- @media (min-width: 768px) {
+@media (min-width: 768px) {
   .md\:visible {
     visibility: visible;
   }
@@ -909,6 +938,12 @@ footer .button {
   }
   .md\:flex {
     display: flex;
+  }
+  .md\:grid {
+    display: grid;
+  }
+  .md\:hidden {
+    display: none;
   }
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
