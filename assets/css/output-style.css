@@ -649,6 +649,9 @@ footer .button {
 .flex-col {
   flex-direction: column;
 }
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
 .items-end {
   align-items: flex-end;
 }
@@ -686,6 +689,9 @@ footer .button {
 }
 .overflow-clip {
   overflow: clip;
+}
+.overflow-x-auto {
+  overflow-x: auto;
 }
 .border {
   border-width: 1px;
@@ -756,6 +762,10 @@ footer .button {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+.py-5p {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 .text-center {
   text-align: center;
