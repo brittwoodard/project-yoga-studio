@@ -154,7 +154,7 @@
 }
 
 .bg-image-style {
-    @apply bg-[#EED5BD] bg-cover bg-no-repeat bg-center
+    @apply bg-feature bg-cover bg-no-repeat bg-center
 }
 
 /* Universal Plugin Styles */
